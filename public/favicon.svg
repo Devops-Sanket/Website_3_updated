@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <radialGradient id="foundryGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F2584E" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0D0D0D" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="dropGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#F2584E" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Outer background circle -->
+  <circle cx="250" cy="250" r="240" fill="#0D0D0D" stroke="#262626" stroke-width="4"/>
+  
+  <!-- Outer red ring -->
+  <circle cx="250" cy="250" r="230" fill="none" stroke="#F2584E" stroke-width="6"/>
+
+  <!-- Cream concentric ring -->
+  <circle cx="250" cy="250" r="220" fill="#131313" stroke="#F3E9D2" stroke-width="5"/>
+
+  <!-- Foundry glow -->
+  <circle cx="250" cy="250" r="215" fill="url(#foundryGlow)"/>
+
+  <!-- Upper Squeegee / Screen Printing Press Rig -->
+  <g id="screen-press">
+    <!-- T-Handle -->
+    <path d="M 215 35 L 285 35 C 290 35 292 40 288 45 L 260 70 L 260 92 L 240 92 L 240 70 L 212 45 C 208 40 210 35 215 35 Z" fill="#F3E9D2" stroke="#0D0D0D" stroke-width="4"/>
+    <circle cx="250" cy="115" r="9" fill="#0D0D0D" stroke="#F3E9D2" stroke-width="3"/>
+    <circle cx="250" cy="132" r="9" fill="#0D0D0D" stroke="#F3E9D2" stroke-width="3"/>
+
+    <!-- Clamp Assembly Box -->
+    <rect x="232" y="92" width="36" height="58" rx="5" fill="#F3E9D2" stroke="#0D0D0D" stroke-width="4"/>
+    <circle cx="250" cy="108" r="6" fill="#0D0D0D"/>
+    <circle cx="250" cy="128" r="6" fill="#0D0D0D"/>
+
+    <!-- Side brackets -->
+    <path d="M 175 105 L 195 105 L 195 125 L 180 125 L 180 135 L 170 135 Z" fill="#F3E9D2"/>
+    <path d="M 325 105 L 305 105 L 305 125 L 320 125 L 320 135 L 330 135 Z" fill="#F3E9D2"/>
+
+    <!-- Screen Printing Outer Frame -->
+    <path d="M 120 190 L 175 135 L 325 135 L 380 190 Z" fill="#1A1A1A" stroke="#F3E9D2" stroke-width="6"/>
+    
+    <!-- Red Screen Mesh Bed with dripping ink -->
+    <path d="M 140 185 L 185 145 L 315 145 L 360 185 Z" fill="#F2584E"/>
+    
+    <!-- Squeegee blade bar -->
+    <rect x="175" y="152" width="150" height="14" rx="3" fill="#F3E9D2" stroke="#0D0D0D" stroke-width="3"/>
+
+    <!-- Front lower frame bar -->
+    <rect x="110" y="185" width="280" height="20" rx="4" fill="#F3E9D2" stroke="#0D0D0D" stroke-width="4"/>
+    
+    <!-- Ink drips flowing from screen frame -->
+    <path d="M 220 205 C 220 216 226 224 232 224 C 238 224 244 216 244 205 Z" fill="#F2584E"/>
+    <path d="M 248 205 C 248 214 253 219 257 219 C 261 219 265 214 265 205 Z" fill="#F2584E"/>
+    <path d="M 165 205 C 165 212 168 216 172 216 C 176 216 179 212 179 205 Z" fill="#F2584E"/>
+  </g>
+
+  <!-- Red Accent Curved Wings -->
+  <path d="M 85 235 Q 250 205 415 235 Q 250 215 85 235 Z" fill="#F2584E"/>
+
+  <!-- Middle Banner Body for MERCH -->
+  <g id="main-banner">
+    <!-- Banner background shape with carved notch edges -->
+    <path d="M 55 240 L 445 240 L 435 345 L 250 370 L 65 345 Z" fill="#141414" stroke="#F3E9D2" stroke-width="6"/>
+    
+    <!-- Inner border accent -->
+    <path d="M 68 248 L 432 248 L 423 336 L 250 358 L 77 336 Z" fill="none" stroke="#262626" stroke-width="2"/>
+
+    <!-- "THE" Top Header -->
+    <text x="250" y="234" text-anchor="middle" font-family="'Impact', 'Bebas Neue', 'Oswald', sans-serif" font-size="28" font-weight="900" letter-spacing="8" fill="#F3E9D2">THE</text>
+
+    <!-- "MERCH" Hero Headline -->
+    <text x="250" y="324" text-anchor="middle" font-family="'Impact', 'Bebas Neue', 'Oswald', sans-serif" font-size="94" font-weight="900" letter-spacing="4" fill="#F3E9D2" stroke="#0D0D0D" stroke-width="4" filter="url(#dropGlow)">MERCH</text>
+  </g>
+
+  <!-- Lower Curved Ribbon: "FOUNDRY" -->
+  <g id="foundry-ribbon">
+    <!-- Red dividing flourish -->
+    <path d="M 110 348 Q 250 378 390 348 Q 250 365 110 348 Z" fill="#F2584E"/>
+    
+    <!-- "FOUNDRY" curved text -->
+    <text x="250" y="405" text-anchor="middle" font-family="'Impact', 'Bebas Neue', 'Oswald', sans-serif" font-size="46" font-weight="900" letter-spacing="6" fill="#F3E9D2" stroke="#0D0D0D" stroke-width="2">FOUNDRY</text>
+  </g>
+
+  <!-- Bottom Foundry Crucible / Ladle Pouring Hot Red Ink -->
+  <g id="ink-crucible">
+    <!-- Crucible Outer Glow & Burst Rays -->
+    <path d="M 200 440 L 175 455 M 205 460 L 180 480 M 300 440 L 325 455 M 295 460 L 320 480 M 215 425 L 195 435 M 285 425 L 305 435" stroke="#F2584E" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Circular crucible shell -->
+    <circle cx="250" cy="445" r="38" fill="#141414" stroke="#F3E9D2" stroke-width="5"/>
+    <circle cx="250" cy="445" r="32" fill="#0D0D0D" stroke="#262626" stroke-width="2"/>
+
+    <!-- Molten Red Ink inside Ladle -->
+    <path d="M 225 440 Q 250 468 275 440 Q 250 450 225 440 Z" fill="#F2584E"/>
+
+    <!-- Pouring molten stream downwards into splatter -->
+    <path d="M 243 442 C 243 470 230 478 220 486 C 240 488 260 488 280 486 C 270 478 257 470 257 442 Z" fill="#F2584E"/>
+    <ellipse cx="250" cy="486" rx="28" ry="7" fill="#F2584E"/>
+    
+    <!-- Splatter beads -->
+    <circle cx="218" cy="480" r="3" fill="#F2584E"/>
+    <circle cx="282" cy="480" r="3" fill="#F2584E"/>
+  </g>
+</svg>

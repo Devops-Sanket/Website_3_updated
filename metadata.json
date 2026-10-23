@@ -1,0 +1,6 @@
+{
+  "name": "The Merch Foundry - Custom T-Shirt & Merch Printing Nashik",
+  "description": "Where merch is crafted. Premium custom T-shirts, caps, mugs, bottles, and merchandise printing in Nashik with screen printing, DTF, and embroidery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
