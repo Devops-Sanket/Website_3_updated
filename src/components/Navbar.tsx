@@ -56,9 +56,9 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenQuoteModal }) => {
           <a href="#hero" className="flex items-center gap-3 shrink-0 group">
             <div className="w-10 h-10 md:w-11 md:h-11 relative flex-shrink-0 transition-transform duration-300 group-hover:scale-105">
               <img
-                src="/logo.svg"
-                alt="The Merch Foundry Logo"
-                className="w-full h-full object-contain filter drop-shadow-sm"
+               src={`${import.meta.env.BASE_URL}logo.svg`}
+               alt="The Merch Foundry Logo"
+               className="w-full h-full object-contain filter drop-shadow-sm"
               />
             </div>
             <div className="flex flex-col">
