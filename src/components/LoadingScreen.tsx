@@ -33,7 +33,11 @@ export const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
       <div className="relative w-36 h-36 mb-6 flex items-center justify-center">
         {/* Silhouette Logo mark */}
         <div className="absolute inset-0 flex items-center justify-center opacity-15 filter grayscale">
-          <img src="/logo.svg" alt="Foundry Mark" className="w-full h-full object-contain" />
+          <img
+           src={`${import.meta.env.BASE_URL}logo.svg`}
+           alt="Foundry Mark"
+           className="w-full h-full object-contain"
+          />
         </div>
 
         {/* Rising Ink Fill */}
@@ -42,9 +46,9 @@ export const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
           style={{ clipPath: `inset(${100 - progress}% 0 0 0)` }}
         >
           <img
-            src="/logo.svg"
-            alt="The Merch Foundry Logo"
-            className="w-full h-full object-contain filter drop-shadow-sm"
+           src={`${import.meta.env.BASE_URL}logo.svg`}
+           alt="The Merch Foundry Logo"
+           className="w-full h-full object-contain filter drop-shadow-sm"
           />
         </div>
       </div>
