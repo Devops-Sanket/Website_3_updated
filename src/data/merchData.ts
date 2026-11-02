@@ -277,7 +277,7 @@ export const galleryItems: GalleryItem[] = [
     title: 'Cyberpunk Neon Streetwear Oversized Tee',
     category: 'T-Shirts',
     method: 'High-Density DTF Print',
-    imageUrl: new URL('../assets/images/dtf_neon_lime_cyber_1792140696895.jpg', import.meta.url).href',
+    imageUrl: new URL('../assets/images/dtf_neon_lime_cyber_1792140696895.jpg', import.meta.url).href,
     client: 'Underground Nashik Club'
   },
   {
@@ -285,7 +285,7 @@ export const galleryItems: GalleryItem[] = [
     title: 'Custom 750ml Aluminum & Steel Sports Sipper',
     category: 'Bottles',
     method: 'Full-Height Rotary UV & Sublimation',
-    imageUrl: new URL('../assets/images/ref_bottle_printing_1792144778432.jpg', import.meta.url).href',
+    imageUrl: new URL('../assets/images/ref_bottle_printing_1792144778432.jpg', import.meta.url).href,
     client: 'Apex Fitness Nashik'
   },
   {
@@ -293,7 +293,7 @@ export const galleryItems: GalleryItem[] = [
     title: 'Structured Baseball Cap & Gold Emblem',
     category: 'Caps',
     method: 'Precision Front Panel DTF Transfer',
-    imageUrl: new URL('../assets/images/ref_cap_printing_1792144777190.jpg', import.meta.url).href',
+    imageUrl: new URL('../assets/images/ref_cap_printing_1792144777190.jpg', import.meta.url).href,
     client: 'Brew & Beans Cafe'
   },
   {
@@ -301,7 +301,7 @@ export const galleryItems: GalleryItem[] = [
     title: 'Never Look Back Heavyweight Skate Tee',
     category: 'T-Shirts',
     method: 'Direct-to-Film (DTF) Print',
-    imageUrl: new URL('../assets/images/dtf_streetwear_white_1792140693459.jpg', import.meta.url).href',
+    imageUrl: new URL('../assets/images/dtf_streetwear_white_1792140693459.jpg', import.meta.url).href,
     client: 'KBT Engineering Fest'
   },
   {
@@ -309,7 +309,7 @@ export const galleryItems: GalleryItem[] = [
     title: 'Glossy Ceramic Photo Wrap Mug',
     category: 'Mugs',
     method: 'High-Gloss 360° Sublimation',
-    imageUrl: new URL('../assets/images/ref_mug_printing_1792144778250.jpg', import.meta.url).href',
+    imageUrl: new URL('../assets/images/ref_mug_printing_1792144778250.jpg', import.meta.url).href,
     client: 'TechVanguard Nashik'
   },
   {
@@ -317,7 +317,7 @@ export const galleryItems: GalleryItem[] = [
     title: 'XXL Micro-Textured Gaming Desk Mat',
     category: 'Others',
     method: 'HD Full-Bleed Dye Sublimation',
-    imageUrl: new URL('../assets/images/ref_mousepad_printing_1792144779611.jpg', import.meta.url).href',
+    imageUrl: new URL('../assets/images/ref_mousepad_printing_1792144779611.jpg', import.meta.url).href,
     client: 'Titan Esports Lounge'
   },
   {
@@ -325,7 +325,7 @@ export const galleryItems: GalleryItem[] = [
     title: 'Faceted Crystal Award & Commemorative Plate',
     category: 'Others',
     method: 'Direct UV Flatbed & Foil Accent',
-    imageUrl: new URL('../assets/images/ref_trophy_printing_1792144780032.jpg', import.meta.url).href',
+    imageUrl: new URL('../assets/images/ref_trophy_printing_1792144780032.jpg', import.meta.url).href,
     client: 'Nashik Chamber of Commerce'
   },
   {
@@ -333,7 +333,7 @@ export const galleryItems: GalleryItem[] = [
     title: '70s Free Your Mind Retro Sun Tee',
     category: 'T-Shirts',
     method: 'Direct-to-Film (DTF) Vibrant Print',
-    imageUrl: new URL('../assets/images/dtf_teal_retro_sun_1792140697365.jpg', import.meta.url).href',
+    imageUrl: new URL('../assets/images/dtf_teal_retro_sun_1792140697365.jpg', import.meta.url).href,
     client: 'Sula Fest Collective'
   }
 ];
