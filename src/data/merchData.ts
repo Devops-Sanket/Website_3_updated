@@ -69,7 +69,7 @@ export const merchProducts: ProductItem[] = [
       'Zero Minimum Order – Single to Bulk Runs',
       'Bio-washed, Preshrunk & Anti-Pill Fabric'
     ],
-    imagePlaceholder: new URL('../assets/images/dtf_streetwear_white_1792140693459.jpg', import.meta.url).href'
+    imagePlaceholder: new URL('../assets/images/dtf_streetwear_white_1792140693459.jpg', import.meta.url).href,
   },
   {
     id: 'caps',
@@ -87,7 +87,7 @@ export const merchProducts: ProductItem[] = [
       'High-precision Front Panel DTF Printing',
       'Adjustable Snapback & Brass Buckle Closures'
     ],
-    imagePlaceholder: new URL('../assets/images/ref_cap_printing_1792144777190.jpg', import.meta.url).href'
+    imagePlaceholder: new URL('../assets/images/ref_cap_printing_1792144777190.jpg', import.meta.url).href,
   },
   {
     id: 'mugs',
@@ -105,7 +105,7 @@ export const merchProducts: ProductItem[] = [
       'Vibrant Edge-to-Edge 300+ DPI Photo Wrap',
       'Color-Lock Scratch-Resistant Glaze'
     ],
-    imagePlaceholder: new URL('../assets/images/ref_mug_printing_1792144778250.jpg', import.meta.url).href'
+    imagePlaceholder: new URL('../assets/images/ref_mug_printing_1792144778250.jpg', import.meta.url).href,
   },
   {
     id: 'bottles',
@@ -123,7 +123,7 @@ export const merchProducts: ProductItem[] = [
       'Full-Height Cylindrical 360° Branding',
       'Chip-resistant & Sweat-proof Exterior Coat'
     ],
-    imagePlaceholder: new URL('../assets/images/ref_bottle_printing_1792144778432.jpg', import.meta.url).href'
+    imagePlaceholder: new URL('../assets/images/ref_bottle_printing_1792144778432.jpg', import.meta.url).href,
   },
   {
     id: 'mouse-pads',
@@ -141,7 +141,7 @@ export const merchProducts: ProductItem[] = [
       'Precision Anti-Fray Stitched Edge Seams',
       'Washable & Fade-Resistant HD Printing'
     ],
-    imagePlaceholder: new URL('../assets/images/ref_mousepad_printing_1792144779611.jpg', import.meta.url).href'
+    imagePlaceholder: new URL('../assets/images/ref_mousepad_printing_1792144779611.jpg', import.meta.url).href,
   },
   {
     id: 'trophies',
@@ -159,7 +159,7 @@ export const merchProducts: ProductItem[] = [
       'High-Gloss Direct UV Full-Color & Gold Accents',
       'Supplied in Premium Velvet Presentation Gift Box'
     ],
-    imagePlaceholder: new URL('../assets/images/ref_trophy_printing_1792144780032.jpg', import.meta.url).href'
+    imagePlaceholder: new URL('../assets/images/ref_trophy_printing_1792144780032.jpg', import.meta.url).href,
   }
 ];
 
